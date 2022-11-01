@@ -18,7 +18,9 @@
             "email": "patelnehal4u@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.3|^8.0"
+    },
     "require-dev": {
         "orchestra/testbench": "^7.11"
     },
@@ -31,5 +33,10 @@
                 "Motivation": "NehalPatel\\Motivation\\Facades\\Motivation"
             }
         }
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit"
+        ]
     }
 }
