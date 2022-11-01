@@ -2,6 +2,16 @@
     "name": "nehalpatel/motivation",
     "description": "Motivational quotes for the day.",
     "license": "MIT",
+    "homepage": "https://github.com/NehalPatel/motivation",
+    "keywords": ["Laravel", "Package", "Learning"],
+    "authors": [
+        {
+            "name": "Nehal Patel",
+            "email": "patelnehal4u@gmail.com",
+            "homepage": "https://github.com/NehalPatel",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "NehalPatel\\Motivation\\": "src/"
@@ -12,12 +22,6 @@
             "NehalPatel\\Motivation\\Tests\\": "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Nehal Patel",
-            "email": "patelnehal4u@gmail.com"
-        }
-    ],
     "require": {
         "php": "^7.3|^8.0"
     },
@@ -35,8 +39,7 @@
         }
     },
     "scripts": {
-        "test": [
-            "vendor/bin/phpunit"
-        ]
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
     }
 }
