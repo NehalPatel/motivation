@@ -1,10 +1,10 @@
 <?php
 
-namespace Nehal\Motivation\Providers;
+namespace NehalPatel\Motivation\Providers;
 
 use Closure;
 use Illuminate\Support\ServiceProvider;
-use Nehal\Motivation\Quote;
+use NehalPatel\Motivation\Quote;
 
 class MotivationAppServiceProvider extends ServiceProvider
 {

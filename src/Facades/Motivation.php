@@ -1,6 +1,6 @@
 <?php
 
-namespace Nehal\Motivation\Facades;
+namespace NehalPatel\Motivation\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

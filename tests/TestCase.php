@@ -1,9 +1,9 @@
 <?php
 
-namespace Nehal\Motivation\Tests;
+namespace NehalPatel\Motivation\Tests;
 
-use Nehal\Motivation\Facades\Motivation;
-use Nehal\Motivation\Providers\MotivationAppServiceProvider;
+use NehalPatel\Motivation\Facades\Motivation;
+use NehalPatel\Motivation\Providers\MotivationAppServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

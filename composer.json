@@ -1,14 +1,14 @@
 {
-    "name": "nehal/motivation",
+    "name": "nehalpatel/motivation",
     "description": "Motivational quotes for the day.",
     "autoload": {
         "psr-4": {
-            "Nehal\\Motivation\\": "src/"
+            "NehalPatel\\Motivation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nehal\\Motivation\\Tests\\": "tests/"
+            "NehalPatel\\Motivation\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -24,10 +24,10 @@
     "extra": {
         "laravel" : {
             "providers" : [
-                "Nehal\\Motivation\\Providers\\MotivationAppServiceProvider"
+                "NehalPatel\\Motivation\\Providers\\MotivationAppServiceProvider"
             ],
             "aliases" : {
-                "Motivation": "Nehal\\Motivation\\Facades\\Motivation"
+                "Motivation": "NehalPatel\\Motivation\\Facades\\Motivation"
             }
         }
     }

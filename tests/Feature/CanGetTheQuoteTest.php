@@ -1,8 +1,8 @@
 <?php
 
-namespace Nehal\Motivation\Tests\Feature;
+namespace NehalPatel\Motivation\Tests\Feature;
 
-use Nehal\Motivation\Tests\TestCase;
+use NehalPatel\Motivation\Tests\TestCase;
 
 class CanGetTheQuoteTest extends TestCase
 {

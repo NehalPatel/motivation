@@ -1,6 +1,6 @@
 <?php
 
-namespace Nehal\Motivation;
+namespace NehalPatel\Motivation;
 
 use Illuminate\Support\Arr;
 
